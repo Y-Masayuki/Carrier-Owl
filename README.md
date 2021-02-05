@@ -1,14 +1,6 @@
- <img src='./data/images/header.png' width='1000' text-align='center'>
-
-# Carrier Owl  
-
-<img src='./data/images/carrier-owl.png' width='50' text-align='center'>
-伝書フクロウという意味です。
-
-## About Carrier Owl
-
+# Slack astroph
+## About Slack astroph
 <img src='./data/images/system.png' width='1000'>
-
 2日前のarxivから気になる論文にスコアを付けてslackに通知するシステムです。  
 通知の際に、abstractをDeepLで翻訳しています。  
 **導入に必要なのはgithubアカウントだけです。10minぐらいで設定は終わります！！**  
