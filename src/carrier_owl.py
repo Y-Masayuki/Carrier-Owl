@@ -21,7 +21,10 @@ warnings.filterwarnings('ignore')
 @dataclass
 class Result:
     url: str
+    title_en: str
     title: str
+    authors: list
+    abstract_en: str
     abstract: str
     words: list
     score: float = 0.0
@@ -45,6 +48,7 @@ def search_keyword(
     results = []
 
     for article in articles:
+        authors = article['authors']
         url = article['arxiv_url']
         title = article['title']
         abstract = article['summary']
@@ -55,9 +59,13 @@ def search_keyword(
             abstract_trans = get_translated_text('ja', 'en', abstract)
             abstract_trans = textwrap.wrap(abstract_trans, 40)  # 40行で改行
             abstract_trans = '\n'.join(abstract_trans)
+            abstract_en = textwrap.wrap(abstract, 90)  # 90行で改行
+            abstract_en = '\n'.join(abstract_en)
+
             result = Result(
-                    url=url, title=title_trans, abstract=abstract_trans,
-                    score=score, words=hit_keywords)
+                    url=url, title_en = title, title=title_trans, authors = authors,
+                    abstract_en = abstract_en, abstract=abstract_trans, score=score,
+                    words=hit_keywords)
             results.append(result)
     return results
 
