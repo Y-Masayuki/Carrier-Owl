@@ -94,16 +94,22 @@ def notify(results: list, slack_id: str, line_token: str) -> None:
     # descending
     for result in sorted(results, reverse=True, key=lambda x: x.score):
         url = result.url
+        authors = result.authors
         title = result.title
+        title_en = result.title_en
         abstract = result.abstract
+        abstract_en = result.abstract_en
         word = result.words
         score = result.score
 
         text = f'\n score: `{score}`'\
                f'\n hit keywords: `{word}`'\
                f'\n url: {url}'\
+               f'\n title:    {title_en}'\
                f'\n title:    {title}'\
+               f'\n authours:    {authors}'\
                f'\n abstract:'\
+               f'\n \t {abstract_en}'\
                f'\n \t {abstract}'\
                f'\n {star}'
 
