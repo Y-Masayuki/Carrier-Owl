@@ -1,9 +1,9 @@
 # arxivの学問領域の指定
-subject: 'astro-ph'
+subject: 'cat:astro-ph.*'
 
 # 検索キーワード
 keywords:
-        protoplanetary disk: 1
+        protoplanetary disk: 2
         circumstellar disk: 1
         protoplanet: 1
         pre-main sequence: 1
@@ -12,7 +12,7 @@ keywords:
         transition disk: 1
         planet formation: 1
         radio interferometry: 1
-        sparse modeling: 1
+        sparse modeling: 2
         protostar: 1
         SETI: 1
 # 通知の閾値
