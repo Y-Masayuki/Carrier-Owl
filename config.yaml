@@ -4,15 +4,21 @@ subject: 'cat:astro-ph.*'
 # 検索キーワード
 keywords:
         protoplanetary disk: 2
+        protoplanetary disc: 2
         circumstellar disk: 1
+        circumstellar disc: 1
         protoplanet: 1
         pre-main sequence: 1
         debris disk: 1
+        debris disc: 1
         T Tauri star: 1
         transition disk: 1
+        transition disc: 1
         planet formation: 1
         dust disk: 1
+        dust disc: 1
         gas disk: 1
+        gas disc: 1
         radio interferometry: 1
         sparse modeling: 2
         protostar: 1
