@@ -3,6 +3,19 @@ subject: 'cat:astro-ph.*'
 
 # 検索キーワード
 keywords:
+        Taurus: 1
+        Ophiushus: 1
+        Orion: 1
+        Lupus: 1
+        Chamaeleon: 1
+        circum planetary disk: 1
+        disk survey : 1
+        Class II: 1
+        Class I: 1
+        Class 0: 1
+        annular substructure: 1
+        protostellar: 1
+        protostar: 1
         protoplanetary disk: 2
         protoplanetary disc: 2
         circumstellar disk: 1
