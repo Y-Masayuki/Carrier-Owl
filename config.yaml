@@ -4,7 +4,8 @@ subject: 'cat:astro-ph.*'
 # 検索キーワード
 keywords:
         Taurus: 1
-        Ophiushus: 1
+        Ophiuchus: 1
+        Upper Scorpius: 1
         Orion: 1
         Lupus: 1
         Chamaeleon: 1
@@ -36,6 +37,7 @@ keywords:
         gas disc: 1
         radio interferometry: 1
         sparse modeling: 2
+        outflow: 1
         protostar: 1
         SETI: 1
 # 通知の閾値
